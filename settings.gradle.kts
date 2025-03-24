@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 rootProject.name = "AnimateVisibility"
 include(":app")
  
