@@ -52,18 +52,18 @@ fun MainScreen(modifier: Modifier = Modifier) {
         }
         Spacer(modifier = Modifier.height(20.dp))
        */
-/* AnimatedVisibility(visible = boxVisible,
+       /* AnimatedVisibility(visible = boxVisible,
                            //enter = fadeIn() + expandHorizontally(),
                            //enter = fadeIn(animationSpec = tween(durationMillis = 5000)),
                            *//*
 */
-/*enter = slideInHorizontally(animationSpec = tween(durationMillis = 5000,
+                         /*enter = slideInHorizontally(animationSpec = tween(durationMillis = 5000,
                                                                              easing = LinearOutSlowInEasing)),*//*
 */
 /*
                            *//*
 */
-/*enter = slideInHorizontally(animationSpec = tween(durationMillis = 5000,
+                         /*enter = slideInHorizontally(animationSpec = tween(durationMillis = 5000,
                                                                               easing = CubicBezierEasing(0f, 1f, 0.5f,1f))),*//*
 */
 /*
@@ -75,7 +75,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         }*//*
 
         */
-/*AnimatedVisibility(visible = boxVisible,
+        /*AnimatedVisibility(visible = boxVisible,
                            enter = fadeIn(animationSpec = tween(durationMillis = 5500)),
                            exit = fadeOut(animationSpec = tween(durationMillis = 5500))){
             Row {
@@ -91,7 +91,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         }*//*
 
         */
-/*AnimatedVisibility(
+         /*AnimatedVisibility(
             visible = boxVisible,
             enter = EnterTransition.None ,
             exit = ExitTransition.None
